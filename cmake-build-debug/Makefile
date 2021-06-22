@@ -142,6 +142,33 @@ e_dict/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/e_dict.dir/build.make CMakeFiles/e_dict.dir/build
 .PHONY : e_dict/fast
 
+file.o: file.cpp.o
+
+.PHONY : file.o
+
+# target to build an object file
+file.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/e_dict.dir/build.make CMakeFiles/e_dict.dir/file.cpp.o
+.PHONY : file.cpp.o
+
+file.i: file.cpp.i
+
+.PHONY : file.i
+
+# target to preprocess a source file
+file.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/e_dict.dir/build.make CMakeFiles/e_dict.dir/file.cpp.i
+.PHONY : file.cpp.i
+
+file.s: file.cpp.s
+
+.PHONY : file.s
+
+# target to generate assembly for a file
+file.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/e_dict.dir/build.make CMakeFiles/e_dict.dir/file.cpp.s
+.PHONY : file.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -169,32 +196,32 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/e_dict.dir/build.make CMakeFiles/e_dict.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-string_utils.o: string_utils.cpp.o
+word.o: word.cpp.o
 
-.PHONY : string_utils.o
+.PHONY : word.o
 
 # target to build an object file
-string_utils.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/e_dict.dir/build.make CMakeFiles/e_dict.dir/string_utils.cpp.o
-.PHONY : string_utils.cpp.o
+word.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/e_dict.dir/build.make CMakeFiles/e_dict.dir/word.cpp.o
+.PHONY : word.cpp.o
 
-string_utils.i: string_utils.cpp.i
+word.i: word.cpp.i
 
-.PHONY : string_utils.i
+.PHONY : word.i
 
 # target to preprocess a source file
-string_utils.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/e_dict.dir/build.make CMakeFiles/e_dict.dir/string_utils.cpp.i
-.PHONY : string_utils.cpp.i
+word.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/e_dict.dir/build.make CMakeFiles/e_dict.dir/word.cpp.i
+.PHONY : word.cpp.i
 
-string_utils.s: string_utils.cpp.s
+word.s: word.cpp.s
 
-.PHONY : string_utils.s
+.PHONY : word.s
 
 # target to generate assembly for a file
-string_utils.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/e_dict.dir/build.make CMakeFiles/e_dict.dir/string_utils.cpp.s
-.PHONY : string_utils.cpp.s
+word.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/e_dict.dir/build.make CMakeFiles/e_dict.dir/word.cpp.s
+.PHONY : word.cpp.s
 
 # Help Target
 help:
@@ -205,12 +232,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... e_dict"
+	@echo "... file.o"
+	@echo "... file.i"
+	@echo "... file.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... string_utils.o"
-	@echo "... string_utils.i"
-	@echo "... string_utils.s"
+	@echo "... word.o"
+	@echo "... word.i"
+	@echo "... word.s"
 .PHONY : help
 
 

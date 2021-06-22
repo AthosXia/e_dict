@@ -4,8 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/andrew/projects/cpp/e_dict/file.cpp" "/home/andrew/projects/cpp/e_dict/cmake-build-debug/CMakeFiles/e_dict.dir/file.cpp.o"
   "/home/andrew/projects/cpp/e_dict/main.cpp" "/home/andrew/projects/cpp/e_dict/cmake-build-debug/CMakeFiles/e_dict.dir/main.cpp.o"
-  "/home/andrew/projects/cpp/e_dict/string_utils.cpp" "/home/andrew/projects/cpp/e_dict/cmake-build-debug/CMakeFiles/e_dict.dir/string_utils.cpp.o"
+  "/home/andrew/projects/cpp/e_dict/word.cpp" "/home/andrew/projects/cpp/e_dict/cmake-build-debug/CMakeFiles/e_dict.dir/word.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

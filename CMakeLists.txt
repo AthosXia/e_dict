@@ -3,4 +3,4 @@ project(e_dict)
 
 set(CMAKE_CXX_STANDARD 98)
 
-add_executable(e_dict main.cpp string_utils.h string_utils.cpp linked_list.h)
+add_executable(e_dict main.cpp word.h file.h file.cpp word.cpp)

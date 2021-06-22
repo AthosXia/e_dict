@@ -1,18 +1,17 @@
-#include "string_utils.h"
-#include <fstream>
+#include "word.h"
+#include "file.h"
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
+vector<Word> wordsListCE;
+vector<Word> wordsListEC;
+
 int main() {
-    ifstream fin("ecdict.csv");
-    string s;
-    while (getline(fin,s)) {
-        vector<string> words = tokenize(s);
-        for (vector<string>::iterator iterator = words.begin(); iterator != words.end(); ++iterator) {
-            cout << *iterator;
-        }
-        cout << endl;
-    }
+    wordsListCE = readIn("dict_chi_eng.txt");
+    wordsListEC = readIn("dict_eng_chi.txt");
+    printWordsList(wordsListCE);
+    printWordsList(wordsListEC);
     return 0;
 }

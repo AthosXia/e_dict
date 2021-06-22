@@ -82,16 +82,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/andrew/projects/cpp/e_dict/linked_list.h">
+		<Unit filename="/home/andrew/projects/cpp/e_dict/file.cpp">
+			<Option target="e_dict"/>
+		</Unit>
+		<Unit filename="/home/andrew/projects/cpp/e_dict/file.h">
 			<Option target="e_dict"/>
 		</Unit>
 		<Unit filename="/home/andrew/projects/cpp/e_dict/main.cpp">
 			<Option target="e_dict"/>
 		</Unit>
-		<Unit filename="/home/andrew/projects/cpp/e_dict/string_utils.cpp">
+		<Unit filename="/home/andrew/projects/cpp/e_dict/word.cpp">
 			<Option target="e_dict"/>
 		</Unit>
-		<Unit filename="/home/andrew/projects/cpp/e_dict/string_utils.h">
+		<Unit filename="/home/andrew/projects/cpp/e_dict/word.h">
 			<Option target="e_dict"/>
 		</Unit>
 		<Unit filename="/home/andrew/projects/cpp/e_dict/CMakeLists.txt">

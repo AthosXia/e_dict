@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/e_dict.dir/file.cpp.o"
   "CMakeFiles/e_dict.dir/main.cpp.o"
-  "CMakeFiles/e_dict.dir/string_utils.cpp.o"
+  "CMakeFiles/e_dict.dir/word.cpp.o"
   "e_dict"
   "e_dict.pdb"
 )
