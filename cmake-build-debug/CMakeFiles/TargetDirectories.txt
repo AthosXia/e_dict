@@ -1,0 +1,3 @@
+/home/andrew/projects/cpp/e_dict/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/andrew/projects/cpp/e_dict/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/andrew/projects/cpp/e_dict/cmake-build-debug/CMakeFiles/e_dict.dir

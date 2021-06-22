@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/e_dict.dir/main.cpp.o CMakeFiles/e_dict.dir/string_utils.cpp.o -o e_dict 
